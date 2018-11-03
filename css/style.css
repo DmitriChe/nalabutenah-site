@@ -1,0 +1,52 @@
+.header {
+    max-width: 1280px;
+    min-height: 170px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    max-width: 1280px;
+    height: 40px;
+    background-color: #f4f4f4;
+}
+
+.header-bottom {
+    max-width: 1280px;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+.main-menu {
+    max-width: 1280px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #00686e;
+}
+
+.content-wrapper {
+    max-width: 1280px;
+    min-height: 1343px;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 25px 20px 50px;
+}
+
+.footer {
+    max-width: 1280px;
+    min-height: 257px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.footer-top {
+    max-width: 1280px;
+    min-height: 222px;
+    background-color: #4a4a4a;
+}
+
+.footer-bottom {
+    max-width: 1280px;
+    min-height: 35px;
+    background-color: #000000;
+}
+
