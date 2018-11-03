@@ -42,6 +42,9 @@ a {
     display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
+    fill: green;
+    width: 32px;
+    height: 32px;
 }
 .signin::before {
     content: url(../images/svg/signin.svg);
@@ -54,9 +57,13 @@ a {
     content: url(../images/svg/compare.svg);
 }
 
-.vk, .icon{
-    fill: red;
+.icon {
+    fill: green;
+    width: 32px;
+    height: 32px;
+
 }
+
 
 .header-bottom {
     max-width: 1280px;
