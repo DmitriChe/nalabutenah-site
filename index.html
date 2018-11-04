@@ -49,23 +49,28 @@
                 <div class="header-contacts">
                     <!--<img src="#" alt="телефон" class="header-contacts__icon">-->
                     <address class="header-contacts__info">
-                        <a href="tel:89257775522" class="header-contacts__link">8 (925) 777-55-22</a>
+                        <a href="tel:89257775522" class="header-contacts__link phone">8 (925) 777-55-22</a>
                     </address>
                     <!--<img src="#" alt="почта" class="header-contacts__icon">-->
                     <address class="header-contacts__info">
-                        <a href="mailto:info@momentomo.ru" class="header-contacts__link">info@momentomo.ru</a>
+                        <a href="mailto:info@momentomo.ru" class="header-contacts__link mail">info@momentomo.ru</a>
                     </address>
                 </div>
                 <form class="header-search" method="get">
                     <input type="search" class="header-search__input" placeholder="Введите поисковую фразу">
-                    <input type="image" class="header-search__button" alt="поиск" src="images/svg/">
+                    <input type="image" class="header-search__button" alt="поиск" src="images/svg/search.svg">
                 </form>
             </div>
 
             <div class="header-basket">
-                <output class="header-basket__total-price">7500 р.</output>
-                <a href="#" class="header-basket__link"><img src="#" alt="корзина" class="header-basket__icon"></a>
                 <output class="header-basket__counter">2</output>
+                <output class="header-basket__total-price">7500 р.</output>
+                <a href="#" class="header-basket__link">
+                    <!--<img src="images/svg/shopping-cart.svg" alt="корзина" class="header-basket__icon">-->
+                    <svg class="header-basket__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="images/svg/shopping-cart.svg#cart"></use>
+                    </svg>
+                </a>
             </div>
         </div>
     </header>
@@ -83,36 +88,42 @@
     <div class="content-wrapper">
         <main>
             <section class="carousel">
-                <img src="images/jpg/moon.png" alt="назад" class="carousel__prev">
+                <!--<img src="#" alt="назад" class="carousel__prev">-->
+                <svg class="carousel__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 32">
+                    <use xlink:href="images/svg/left.svg#left"></use>
+                </svg>
                 <div class="carousel-content">
-                    <img src="#" alt="картинка карусели" class="carousel-content__image">
+                    <img src="images/jpg/moon.png" alt="картинка карусели" class="carousel-content__image">
                     <div class="carousel-text">
                         <h1 class="carousel-text__title">Moon Watcher</h1>
                         <span class="carousel-text__subtitle">
-                            Часы прямиком из космоса украсят ваш интерьер.
-                            Пока планеты управляют другими - вы управляете планетами</span>
+                            Часы прямиком из космоса украсят ваш интерьер.<br>
+                            Пока планеты управляют другими - вы управляете<br> планетами</span>
+                        <button class="carousel__button">купить Луну</button>
                         <p class="carousel-text__description">
                             Планетарная коллекция
                         </p>
-                        <button class="carousel__button">купить Луну</button>
                     </div>
                 </div>
-                <img src="#" alt="далее" class="carousel__next">
+                <!--<img src="#" alt="далее" class="carousel__next">-->
+                <svg class="carousel__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 32">
+                    <use xlink:href="images/svg/right.svg#right"></use>
+                </svg>
             </section>
 
             <section class="sale-block">
                 <div class="sale-item">
-                    <img src="#" alt="продажа" class="sale-item__icon">
+                    <!--<img src="#" alt="продажа" class="sale-item__icon">-->
                     <h2 class="sale-item__title sell">Продажа</h2>
                     <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
                 </div>
                 <div class="sale-item">
-                    <img src="#" alt="скидки" class="sale-item__icon">
+                    <!--<img src="#" alt="скидки" class="sale-item__icon">-->
                     <h2 class="sale-item__title discount">Скидки</h2>
                     <span class="sale-item__subtitle">Невообразимо низкие цены</span>
                 </div>
                 <div class="sale-item">
-                    <img src="#" alt="акции" class="sale-item__icon">
+                    <!--<img src="#" alt="акции" class="sale-item__icon">-->
                     <h2 class="sale-item__title action">Акции</h2>
                     <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
                 </div>
@@ -127,8 +138,8 @@
                         <output class="product-item__price">35 000 р.</output>
                         <div class="product-item__label new">new</div>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                     <figure class="product-item">
@@ -137,8 +148,8 @@
                         <output class="product-item__price">35 000 р.</output>
                         <div class="product-item__label new">new</div>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                     <figure class="product-item">
@@ -147,8 +158,8 @@
                         <output class="product-item__price">35 000 р.</output>
                         <div class="product-item__label new">new</div>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                     <figure class="product-item">
@@ -157,8 +168,8 @@
                         <output class="product-item__price">35 000 р.</output>
                         <div class="product-item__label new">new</div>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                 </div>
@@ -176,8 +187,8 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                     <figure class="product-item">
@@ -189,8 +200,8 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                     <figure class="product-item">
@@ -202,8 +213,8 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                     <figure class="product-item">
@@ -215,8 +226,8 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
+                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
                         </form>
                     </figure>
                 </div>
@@ -300,8 +311,9 @@
 
     <footer class="footer">
         <div class="footer-top">
+
             <div class="footer-logo">
-                <div class="header-logo__image">
+                <div class="footer-logo__image">
                     <svg class="footer-logo__svg" xmlns="http://www.w3.org/2000/svg" viewBox="50 0 640 1400">
                         <use xlink:href="images/svg/logo.svg#logo"></use>
                     </svg>
@@ -311,31 +323,34 @@
                     <span class="footer-logo__subtitle">just watch the time<br>to control your life</span>
                 </div>
             </div>
-            <div class="footer-item">
-                <h4 class="footer-item__title">Меню</h4>
-                <a href="#" class="footer-item__link">Главная</a>
-                <a href="#" class="footer-item__link">Каталог</a>
-                <a href="#" class="footer-item__link">Галерея</a>
-                <a href="#" class="footer-item__link">Акции</a>
-                <a href="#" class="footer-item__link">Контакты</a>
-            </div>
-            <div class="footer-item">
-                <h4 class="footer-item__title">Способы оплаты</h4>
-                <a href="#" class="footer-item__link">Наличными</a>
-                <a href="#" class="footer-item__link">Visa или Mastercard</a>
-                <a href="#" class="footer-item__link">В кредит</a>
-            </div>
-            <div class="footer-item">
-                <h4 class="footer-item__title">Контактная информация</h4>
-                <address>
-                    <a href="tel:84996549879" class="footer-item__link">Телефон: 8(499)654-98-79</a>
-                </address>
-                <address>
-                    <a href="mailto:info@nalabuten.ah" class="footer-item__link">E-mail: info@nalabuten.ah</a>
-                </address>
-                <address>
-                    <a href="#" class="footer-item__link">Адрес: г.Москва Фантастический проезд д.234</a>
-                </address>
+
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h4 class="footer-item__title">Меню</h4>
+                    <a href="#" class="footer-item__link">Главная</a>
+                    <a href="#" class="footer-item__link">Каталог</a>
+                    <a href="#" class="footer-item__link">Галерея</a>
+                    <a href="#" class="footer-item__link">Акции</a>
+                    <a href="#" class="footer-item__link">Контакты</a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="footer-item__title">Способы оплаты</h4>
+                    <a href="#" class="footer-item__link">Наличными</a>
+                    <a href="#" class="footer-item__link">Visa или Mastercard</a>
+                    <a href="#" class="footer-item__link">В кредит</a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="footer-item__title">Контактная информация</h4>
+                    <address>
+                        <a href="tel:84996549879" class="footer-item__link">Телефон: 8(499)654-98-79</a>
+                    </address>
+                    <address>
+                        <a href="mailto:info@nalabuten.ah" class="footer-item__link">E-mail: info@nalabuten.ah</a>
+                    </address>
+                    <address>
+                        <a href="#" class="footer-item__link">Адрес: г.Москва Фантастический проезд д.234</a>
+                    </address>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
