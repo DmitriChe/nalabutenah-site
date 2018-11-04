@@ -160,6 +160,7 @@ a {
     font-family: 'Roboto-Thin', sans-serif;
     font-size: 16px;
     font-weight: 100;
+    padding: 5px;
 }
 .header-search__button {
     width: 84px;
