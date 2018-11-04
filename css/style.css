@@ -48,7 +48,7 @@ a {
     content: url(../images/svg/signin.svg);
 }
 .favorite::before {
-    content: url(../images/svg/favorite.svg);
+    content: url(../images/svg/favorite-top.svg);
 }
 .compare::before {
     content: url(../images/svg/compare.svg);
@@ -92,7 +92,6 @@ a {
 .header-logo__svg {
     fill: #00686e;
     height: 100px;
-
 }
 
 .header-logo__title,
@@ -108,7 +107,6 @@ a {
     font-stretch: ultra-condensed;
     letter-spacing: -2px;
     width: 146px;
-    background-color: lightgray;
 }
 .header-logo__subtitle {
     font-family: 'Roboto', sans-serif;
@@ -208,36 +206,33 @@ a {
 }
 
 .evening::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/home.svg);
 }
 .wedding::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/favorite-left.svg);
 }
 .popular::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/group.svg);
 }
 .usual::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/calendar.svg);
 }
 .special::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/cog.svg);
 }
 .simple::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/paper-clip.svg);
 }
 .original::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/star.svg);
 }
 .space::before {
-    content: url(../images/svg/signin.svg);
+    content: url(../images/svg/cloud.svg);
 }
 
 .adverts-block__item {
     margin-bottom: 10px;
 }
-
-
-
 
 .footer {
     max-width: 1280px;
