@@ -394,12 +394,13 @@ a {
     border: 1px solid #cecece;
     background-color: #ffffff;
 }
+.sale-item:hover .sale-item__title {
+    filter: brightness(150%);
+    cursor: pointer;
+}
 
 .sale-item__title {
     font-size: 30px;
-}
-.sale-item__title:hover {
-    filter: brightness(150%);
 }
 .sale-item__title.sell {
     color: #00686e;
@@ -456,6 +457,10 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+.product-item:hover {
+    background-color: #fff7d1;
+    cursor: pointer;
 }
 
 .product-item__label {
