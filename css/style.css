@@ -97,6 +97,7 @@ a {
 .footer-logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .header-logo__image,
 .footer-logo__image {
@@ -108,12 +109,12 @@ a {
 .header-logo__svg {
     fill: #00686e;
     height: 100px;
-    cursor: pointer;
 }
-.header-logo__svg:hover {
+
+.header-logo:hover .header-logo__svg{
     fill: #008a90;
 }
-.header-logo__svg:active {
+.header-logo:active .header-logo__svg{
     fill: #ffffff;
 }
 
