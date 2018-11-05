@@ -467,6 +467,9 @@ a {
     text-align: center;
     line-height: 36px;
 }
+.product-item__label:hover {
+    filter: brightness(150%);
+}
 
 .product-item__label.new {
     background-color: #ff824a;
@@ -648,7 +651,7 @@ aside {
 
 
 .footer-item__title {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 100;
     color: #ffffff;
