@@ -633,21 +633,20 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.footer-logo:hover .footer-logo__svg{
+    fill: #000000;
+}
+.footer-logo:active .footer-logo__svg{
+    fill: #4a4a4a;
 }
 
 .footer-logo__svg {
     fill: #ffffff;
     height: 100px;
-    cursor: pointer;
+}
 
-}
-.footer-logo__svg:hover {
-    fill: #000000;
-    cursor: pointer;
-}
-.footer-logo__svg:active {
-    fill: #4a4a4a;
-}
 
 .footer-logo__title,
 .footer-logo__subtitle {
