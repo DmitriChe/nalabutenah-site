@@ -352,9 +352,10 @@ a {
 }
 .carousel__button:hover {
     transform: rotate(15deg);
+    color: #f610a1;
 }
 .carousel__button:active {
-    color: #f610a1;
+    color: #ff824a;
 }
 
 .carousel-text__description {
@@ -393,6 +394,9 @@ a {
 
 .sale-item__title {
     font-size: 30px;
+}
+.sale-item__title:hover {
+    filter: brightness(150%);
 }
 .sale-item__title.sell {
     color: #00686e;
