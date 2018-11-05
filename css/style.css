@@ -14,7 +14,7 @@ a {
 }
 
 .header {
-    max-width: 1280px;
+    max-width: 1240px;
     min-height: 170px;
     margin: 0 auto;
 }
@@ -23,7 +23,6 @@ a {
     max-width: 1280px;
     height: 40px;
     background-color: #f4f4f4;
-    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -84,7 +83,7 @@ a {
 
 
 .header-bottom {
-    max-width: 1280px;
+    max-width: 1240px;
     height: 130px;
     background-color: #ffffff;
     display: flex;
@@ -220,6 +219,9 @@ a {
 }
 
 .header-basket__counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -228,8 +230,6 @@ a {
     font-weight: 100;
     font-size: 16px;
     color: #ffffff;
-    line-height: 24px;
-    text-align: center;
     position: absolute;
     top: -12px;
     right: 27px;
@@ -268,7 +268,7 @@ a {
 /*MAIN MENU*/
 
 .main-menu {
-    max-width: 1280px;
+    max-width: 1240px;
     height: 50px;
     margin: 0 auto;
     background-color: #00686e;
@@ -303,11 +303,11 @@ a {
 }
 
 .content-wrapper {
-    max-width: 1280px;
+    max-width: 1240px;
     min-height: 1343px;
     margin: 0 auto;
     background-color: #ffffff;
-    padding: 25px 20px 50px;
+    padding: 25px 0 50px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -613,16 +613,14 @@ aside {
 
 
 .footer {
-    max-width: 1280px;
+    max-width: 1240px;
     min-height: 257px;
     margin: 0 auto;
     color: #ffffff;
 }
 
-
-
 .footer-top {
-    width: 1280px;
+    width: 1240px;
     min-height: 222px;
     background-color: #4a4a4a;
     display: flex;
@@ -692,7 +690,7 @@ aside {
 }
 
 .footer-bottom {
-    max-width: 1280px;
+    max-width: 1240px;
     min-height: 35px;
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
@@ -703,9 +701,7 @@ aside {
     position: relative;
 }
 .header-top::after,
-.header-bottom::after,
 .main-menu::after,
-.content-wrapper::after,
 .footer-top::after,
 .footer-bottom::after {
     content:'';
