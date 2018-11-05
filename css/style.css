@@ -108,10 +108,13 @@ a {
 .header-logo__svg {
     fill: #00686e;
     height: 100px;
+    cursor: pointer;
 }
 .header-logo__svg:hover {
     fill: #008a90;
-    height: 100px;
+}
+.header-logo__svg:active {
+    fill: #ffffff;
 }
 
 .header-logo__title,
@@ -539,8 +542,8 @@ aside {
     color: #ffffff;
     line-height: 57px;
     padding-left: 30px;
-
 }
+
 .left-menu-items {
     margin-bottom: 25px;
 }
@@ -630,6 +633,15 @@ aside {
 .footer-logo__svg {
     fill: #ffffff;
     height: 100px;
+    cursor: pointer;
+
+}
+.footer-logo__svg:hover {
+    fill: #000000;
+    cursor: pointer;
+}
+.footer-logo__svg:active {
+    fill: #4a4a4a;
 }
 
 .footer-logo__title,
