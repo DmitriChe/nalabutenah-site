@@ -339,7 +339,7 @@ a {
 }
 
 .carousel-text__title {
-    font-family: EdwardianScriptITC;
+    font-family: 'EdwardianScriptITC', cursive;
     font-size: 60px;
 }
 .carousel-text__subtitle {
