@@ -389,6 +389,7 @@ a {
 }
 
 .sale-item {
+    flex-basis: calc(100% / 3 - 20px * 2 / 3);
     width: 295px;
     height: 92px;
     padding: 15px;
