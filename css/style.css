@@ -407,7 +407,6 @@ a {
 
 .sale-item {
     flex-basis: calc(100% / 3 - 20px * 2 / 3);
-    width: 295px;
     height: 92px;
     padding: 15px;
     border: 1px solid #cecece;
@@ -538,20 +537,53 @@ a {
     color: #ffffff;
 }
 
-.product-checkout__icon {
+.product-checkout__basket,
+.product-checkout__bolt {
+    background-color: #00686e;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.product-checkout__basket {
     width: 139px;
-    border-left: 1px solid #ffffff;
-    background-color: #00686e;
+    border-right: thin solid #ffffff;
+    font-size: 18px;
+    color: white;
 }
-
-.product-checkout__fast {
+.product-checkout__basket-svg {
+    width: 14px;
+    fill: white;
+    margin-right: 10px;
+}
+.product-checkout__bolt {
     width: 50px;
-    background-color: #00686e;
+}
+.product-checkout__bolt-svg {
+    width: 8px;
+    fill: white;
+}
+.product-checkout__basket:hover .product-checkout__basket-svg,
+.product-checkout__bolt:hover .product-checkout__bolt-svg,
+.product-checkout__basket:hover {
+    fill: gold;
+    color: gold;
+}
+.product-checkout__basket:active,
+.product-checkout__bolt:active {
+    background-color: #00474d;
+}
+.product-checkout__bolt:hover .product-checkout__bolt-svg {
+    width: 10px;
+}
+.product-checkout__bolt:active .product-checkout__bolt-svg {
+    fill: red;
+    width: 12px;
 }
 
 
-
-/*ASIDE BLOCK*/
+    /*ASIDE BLOCK*/
 aside {
     order: -1;
 }

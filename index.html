@@ -47,11 +47,9 @@
             </div>
             <div class="header-bottom__block">
                 <div class="header-contacts">
-                    <!--<img src="#" alt="телефон" class="header-contacts__icon">-->
                     <address class="header-contacts__info">
                         <a href="tel:89257775522" class="header-contacts__link phone">8 (925) 777-55-22</a>
                     </address>
-                    <!--<img src="#" alt="почта" class="header-contacts__icon">-->
                     <address class="header-contacts__info">
                         <a href="mailto:info@momentomo.ru" class="header-contacts__link mail">info@momentomo.ru</a>
                     </address>
@@ -70,7 +68,6 @@
                 <output class="header-basket__counter">2</output>
                 <output class="header-basket__total-price">7500 р.</output>
                 <a href="#" class="header-basket__link">
-                    <!--<img src="images/svg/shopping-cart.svg" alt="корзина" class="header-basket__icon">-->
                     <svg class="header-basket__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
                         <use xlink:href="images/svg/shopping-cart.svg#cart"></use>
                     </svg>
@@ -92,7 +89,6 @@
     <div class="content-wrapper">
         <main>
             <section class="carousel">
-                <!--<img src="#" alt="назад" class="carousel__prev">-->
                 <svg class="carousel__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 32">
                     <use xlink:href="images/svg/left.svg#left"></use>
                 </svg>
@@ -109,7 +105,6 @@
                         </p>
                     </div>
                 </div>
-                <!--<img src="#" alt="далее" class="carousel__next">-->
                 <svg class="carousel__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 32">
                     <use xlink:href="images/svg/right.svg#right"></use>
                 </svg>
@@ -117,17 +112,14 @@
 
             <section class="sale-block">
                 <div class="sale-item">
-                    <!--<img src="#" alt="продажа" class="sale-item__icon">-->
                     <h2 class="sale-item__title sell">Продажа</h2>
                     <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
                 </div>
                 <div class="sale-item">
-                    <!--<img src="#" alt="скидки" class="sale-item__icon">-->
                     <h2 class="sale-item__title discount">Скидки</h2>
                     <span class="sale-item__subtitle">Невообразимо низкие цены</span>
                 </div>
                 <div class="sale-item">
-                    <!--<img src="#" alt="акции" class="sale-item__icon">-->
                     <h2 class="sale-item__title action">Акции</h2>
                     <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
                 </div>
@@ -137,43 +129,79 @@
                 <h3 class="product-category__title">новинки</h3>
                 <div class="product-items">
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">35 000 р.</output>
-                        <div class="product-item__label new">new</div>
+                        <output class="product-item__label new">new</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">35 000 р.</output>
-                        <div class="product-item__label new">new</div>
+                        <output class="product-item__label new">new</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">35 000 р.</output>
-                        <div class="product-item__label new">new</div>
+                        <output class="product-item__label new">new</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">35 000 р.</output>
-                        <div class="product-item__label new">new</div>
+                        <output class="product-item__label new">new</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                 </div>
@@ -183,7 +211,7 @@
                 <h3 class="product-category__title">товары со скидкой</h3>
                 <div class="product-items">
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">
                             35 000 р.
@@ -191,12 +219,21 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">
                             35 000 р.
@@ -204,12 +241,21 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">
                             35 000 р.
@@ -217,12 +263,21 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                     <figure class="product-item">
-                        <figcaption class="product-item__title">Labuten-lady</figcaption>
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
                         <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
                         <output class="product-item__price">
                             35 000 р.
@@ -230,8 +285,17 @@
                         </output>
                         <output class="product-item__label discount">-10%</output>
                         <form class="product-checkout">
-                            <input type="image" src="images/svg/shopping-cart-small.svg" alt="добавить в корзину" class="product-checkout__icon">
-                            <input type="image" src="images/svg/bolt.svg" alt="быстрый заказ" class="product-checkout__fast">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
                         </form>
                     </figure>
                 </div>
