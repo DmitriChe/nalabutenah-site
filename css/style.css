@@ -478,7 +478,6 @@ a {
     align-items: center;
 }
 .product-item:hover {
-    background-color: #fff7d1;
     cursor: pointer;
 }
 
@@ -494,15 +493,20 @@ a {
     text-align: center;
     line-height: 36px;
 }
-.product-item__label:hover {
-    filter: brightness(150%);
-}
 
 .product-item__label.new {
     background-color: #ff824a;
 }
 .product-item__label.discount {
     background-color: #a4379e;
+}
+
+.product-item:hover .product-item__label{
+    filter: brightness(150%);
+    cursor: pointer;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
 }
 
 .product-item__image {
